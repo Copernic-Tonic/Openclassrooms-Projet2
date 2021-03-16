@@ -1,11 +1,7 @@
-@font-face
-{
-    font-family: "Raleway";
-    src: url(/Raleway/Raleway-Black.ttf) format("ttf");
-}
-
+@media screen and (max-width: 740px) and (min-width: 338px){
 body
 {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+}

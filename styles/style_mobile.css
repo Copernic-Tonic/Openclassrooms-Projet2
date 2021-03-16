@@ -1,11 +1,155 @@
-@font-face
-{
-    font-family: "Raleway";
-    src: url(/Raleway/Raleway-Black.ttf) format("ttf");
-}
-
+@media screen and (max-width: 338px){
+    
 body
 {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: 'Raleway'  ;
+    margin: unset;
 }
 
+#parent_header
+{
+    width: 338px;
+    height: 119px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.logo:nth-child(1)
+{
+    order: 1;
+    position: relative;
+    left: 12px;
+}
+
+.Hébergements:nth-child(2)
+{
+    order: 3;
+    width: 169px;
+    height: auto;
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+
+.Sinscrire:nth-child(4)
+{
+    order: 2;
+    color: #0065FC;
+    font-weight: normal;
+    text-align: center;
+    height: auto;
+    position: relative;
+    top: 18px;
+    left: 30px;
+}
+
+.Activités:nth-child(3)
+{
+    order: 4;
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+
+a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+.Hébergements:hover
+{
+    border-bottom: 3px solid #0065FC;
+    font-weight: bold;
+}
+
+.Activités:hover
+{
+    border-bottom: 3px solid #0065FC;
+    font-weight: bold
+}
+
+.Sinscrire:hover
+{
+    font-weight: bold;
+}
+/*---------------------------------fin du header-------------------------------*/
+#parent_nav
+{
+    height: 498px;
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2p_nav
+{
+    width: 265px;
+    height: 74px;
+    padding: 17px;
+}
+
+.h2_nav h1
+{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.p_nav 
+{
+    font-size: 14px;
+}
+
+.barre_de_recherche
+{
+    width: 301px;
+    height: 47px;
+    margin: 17px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    margin-top: -40px;
+}
+ 
+.fas
+{
+   color: #0065FC;
+}
+
+#Barre_de_Recherche
+{
+    width: 207px;
+    height: 47px;
+    position: relative;
+    top: -17px;
+
+}
+
+.barre_de_recherche i
+{
+    width: 44px;
+    height: 47px;
+    justify-content: center;
+    background-color: #F2F2F2;
+    position: relative;
+    top: -31px;
+    border-radius: 20px 0 0 20px;
+}
+
+.barre_de_recherche p i
+{
+    
+}
+
+p{
+    
+   
+}
+div{
+    
+    
+}
+
+
+
+}

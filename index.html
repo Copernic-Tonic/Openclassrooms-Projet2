@@ -4,10 +4,12 @@
 
             <meta charset="UTF-8"/>
             <title>Projet Reservia</title>
-            <link rel="stylesheet" media="screen and (max-width: 338px)" href="style_mobile.css">
-            <link rel="stylesheet" media="screen and (max-width: 740px)" href="style_tablette.css">
-            <link rel="stylesheet" media="screen and (max-width: 1024px)" href="style_desktop.css">
+            <link rel="stylesheet" href="./styles/style_mobile.css">
+            <link rel="stylesheet" href="./styles/style_tablette.css">
+            <link rel="stylesheet" href="./styles/style_desktop.css">
             <script src="https://kit.fontawesome.com/80f90064c3.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
         </head>
@@ -17,36 +19,35 @@
 
             <header>
                 <div id="parent_header">
-                    <div class="logo"><p><img src="/images/logo/Reservia.svg" alt="logo_reservia"/></p></div>
-                    <div class="Hébergements"><a href="#ancre_Hébergement">Hébergements</a></div>
-                    <div class="Activités"><a href="#ancre_Activités">Activités</a></div>
-                    <div class="Sinscrire">S'inscrire</div>
+                    <div class="logo"><p><img src="./images/logo/Reservia.svg" alt="logo_reservia"/></p></div>
+                    <div class="Hébergements"><a href="#ancre_Hébergement"><p>Hébergements</p></a></div>
+                    <div class="Activités"><a href="#ancre_Activités"><p>Activités</p></a></div>
+                    <div class="Sinscrire"><p>S'inscrire</p></div>
                 </div>
             </header>
 
 
             <nav>
                 <div id="parent_nav">
-                    <div class="h2_nav">
-                        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <div class="h2p_nav">
+                        <div class="h2_nav"><h1>Trouvez votre hébergement pour des vacances de rêve</h1></div>
+                        <div class="p_nav"><p>En plein centre ville ou en pleine nature</p></div>
                     </div>
-                    <div class="p">
-                        <p>En plein centre ville ou en pleine nature</p>
-                    </div>
-                    <div class="barre de Recherche">
+                    <div class="barre_de_recherche">
                         <form method="POST" action="traitement.php">
-                        <p><input type="search" name="recherche_ville" id="Barre_de_Recherche" placeholder="Ville Souhaitée"/><input type="submit" id="Rechercher"></p>
+                        <p><i class="fas fa-map-marker-alt"></i><input type="search" name="recherche_ville" id="Barre_de_Recherche" placeholder="Marseille, France"/><input type="submit" id="Rechercher">
+                        </p>
                         </form>
                     </div>
                     <div class="parent_filtres">
                         <div class="Filtres">Filtres</div>
-                        <div class="Économique">Économique</div>
-                        <div class="Famillial">Famillial</div>
-                        <div class="Romantique">Romantique</div>
-                        <div class="Animaux autorisés">Animaux autorisés</div>
+                        <div class="Économique"><i class="fas fa-money-bill-wave"></i>Économique</div>
+                        <div class="Famillial"><i class="fas fa-child"></i>Famillial</div>
+                        <div class="Romantique"><i class="fas fa-heart"></i>Romantique</div>
+                        <div class="Animaux autorisés"><i class="fas fa-dog"></i>Animaux autorisés</div>
                     </div>
                     <div class="p2">
-                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                        <p<i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
                     </div>
                 </div>
             </nav>

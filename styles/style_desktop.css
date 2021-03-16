@@ -1,53 +1,85 @@
-@font-face
-{
-    font-family: "Raleway";
-    src: url(./Raleway/Raleway-Black.ttf) format("ttf");
+@media screen and (min-width: 1024px){
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
-body
-{
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-}
-
-.logo
-{
-    width: 159px;
+.logo{
+    width: 288px;
     height: 129px;
-}    
-.parent_header
-{
+    margin: auto;
+    padding-top: 14px;
+    flex: 20;
+    justify-content: center;
+}  
+
+
+#parent_header{
     width: 1440px;
     height: 129px;
-   
-}
-
-.parent_header
-{
-    border: 1px black;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-.Hébergements
-{
-    width: 92.17px;
-    height: 17px;
+.Hébergements{
+    width: 162px;
+    height: 129px;
+    padding-top: 18px;
+    text-align: center;
+    margin: auto;
+    flex: 3;
 }
 
-.Actvités
-{
-    width: 92.17px;
-    height: 17px;
+.Activités{
+    width: 153px;
+    height: 129px;
+    padding-top: 18px;
+    text-align: center;
+    margin: auto;
+    flex: 2;
 }
 
-.Sinscrire
-{
-    width: 92.17px;
-    height: 17px;
+.Sinscrire{
+    width: 116px;
+    height: 129px;
+    padding-top: 18px;
+    text-align: center;
+    margin: auto;
 }
 
-nav
-{
- border: 1px black;
+.Hébergements:hover{
+    border-top: 2px solid #0065FC;
+}
+
+.Activités:hover{
+    border-top: 2px solid #0065FC;
+}
+
+.Sinscrire:hover{
+    border-top: 2px solid #0065FC;
+}
+
+a{
+    text-decoration: none #0065FC;
+    font-weight: normal;
+    color: #0065FC;
+}
+a:hover{
+    font-weight: bold;
+}
+
+.Sinscrire p:hover{
+    font-weight: bold;
+    color: #0065FC;
+}
+
+.Sinscrire p{
+    font: normal;
+    color: #0065FC;
+}
+
+
 }
