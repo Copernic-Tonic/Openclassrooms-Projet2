@@ -20,7 +20,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
@@ -81,5 +81,90 @@ a:hover{
     color: #0065FC;
 }
 
+/*------------------------------------fin du header---debut de la partie nav-------------------------------------------*/
 
+nav {
+    width: 1440px;
+    height: 298px;
+    margin:  auto;
+}
+
+/*------------------------------------fin de la partie nav---debut des sections-------------------------------------*/
+
+#parent_section {
+    width: 1440px;
+    height: 1240px;
+    margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 880px 40px 420px;
+    grid-template-rows: 625px 64px 489px 61px;
+}
+
+/*------------------------------------------------- section Hébergement ------------------------------------------------------*/
+
+.parent_Hébergements {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    width: 880px;
+    height: 625px;
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+
+/*-------------------------------------------------- section populaire -------------------------------------------------------*/
+
+.parent_populaires {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 625px;
+    grid-row: 1 / 2;
+    grid-column: 3;
+}
+
+/*------------------------------------------------------ section activités -----------------------------------------------------------*/
+
+.parent_activités {
+    margin: 0;
+    padding: 0;
+    width: 1337px;
+    height: 489px;
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+    
+}
+
+/*------------------------------------ fin des parties sections ------------- debut de la partie footer -------------------------*/
+
+.parent_footer {
+    background-color: #F2F2F2;
+    width: 1440px;
+    height: 218px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    wrap: nowrap;
+
+}
+
+.À_propos {
+    width: 448px;
+    height: 115px;
+}
+
+.Nos_hébergements {
+    width: 448px;
+    height: 115px;
+}
+
+.Assistance {
+    width: 448px;
+    height: 115px;
+}
 }
