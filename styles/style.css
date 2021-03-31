@@ -1,0 +1,371 @@
+
+body  {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------- partie header --------------------------------------------------------*/
+
+#parent_header{
+    max-width: 1440px;
+    height: 129px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#parent_header a {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+#parent_header a:hover {
+    font-weight: bold;
+}
+
+#parent_header p {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.logo {
+    padding-left: 50px;
+    flex-grow: 2;
+}
+
+.Hébergements {
+    padding: 55px 33.5px 0 33.5px;
+    align-self: flex-start;
+}
+
+.Hébergements:hover {
+    border-top: 2px solid #0065FC;
+}
+
+.Activités {
+    padding: 55px 33.5px 0 33.5px;
+    align-self: flex-start;
+}
+
+.Activités:hover {
+    border-top: 2px solid #0065FC;
+}
+
+.Sinscrire {
+    padding: 55px 50px 0 50px;
+    align-self: flex-start;
+}
+
+.Sinscrire:hover {
+    border-top: 2px solid #0065FC;
+}
+
+
+/*------------------------------------------------------- partie nav -------------------------------------------------------------*/
+
+#parent_nav {
+    max-width: 1440px;
+    height: 298px;
+    padding: 0 50px 0 150px;
+    margin: auto;
+}
+
+/*------------------------------------fin de la partie nav---debut des sections-------------------------------------*/
+
+#parent_section {
+    max-width: 1440px;
+    height: 1240px;
+    margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 3.472% 61.111% 2.777% 29.166% 3.747%;
+    grid-template-rows: 626px 65px 489px 60px;
+}
+
+/*------------------------------------------------- section Hébergement ------------------------------------------------------*/
+
+.parent_Hébergements {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    grid-row: 1 / 2;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 4.545% 27.954% 3.522% 27.954% 3.522% 27.954% 4.545%;
+    grid-template-rows: 7.507% 2.555% 4.472% 31.789% 4.792% 31.789% 7.028% 2.396% 7.987%;
+}
+
+.parent_Hébergements img {
+    width: 236px;
+    height: 114px;
+    border-radius: 30px 30px 0 0;
+    padding: 5px 5px 0 5px;
+}
+
+.parent_Hébergements h2 {
+    font-weight: 1000;
+    font-size: 1.25em;
+}
+.h2_section_Hébergement {
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+}
+
+.hébergement_vignette1 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.hébergement_vignette2 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.hébergement_vignette3 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+}
+
+.hébergement_vignette4 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.hébergement_vignette5 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+}
+
+.hébergement_vignette6 {
+    background-color: white;
+    width: 246px;
+    height: 199px;
+    border-radius: 30px;
+    grid-column: 6 / 7;
+    grid-row: 6 / 7;
+}
+
+.Afficher_plus {
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+/*-------------------------------------------------- section populaire -------------------------------------------------------*/
+
+.parent_populaires {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    display: grid;
+    grid-template-columns: 8.809% 81.666% 9.525%;
+    grid-template-rows: 7.04% 2.88% 4.96% 23.04% 5.28% 23.04% 5.28% 23.04% 5.44%;
+}
+
+.parent_populaires img {
+    width: 127px;
+    height: 134px;
+    border-radius: 30px 0 0 30px;
+    padding: 5px 0 5px 5px;
+    float: left;
+}
+.parent_populaires h2 {
+    font-size: 1.25em;
+    font-weight: 2000;
+}
+
+.flex_populairelogo {
+    width: 343px;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.populaire_vignette1 {
+    width: 343px;
+    height: 144px;
+    background-color: white;
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.populaire_vignette2 {
+    width: 343px;
+    height: 144px;
+    background-color: white;
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.populaire_vignette3 {
+    width: 343px;
+    height: 144px;
+    background-color: white;
+    border-radius: 30px;
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+
+/*------------------------------------------------------ section activités -----------------------------------------------------------*/
+
+.parent_activités {
+    margin: 0;
+    padding: 0;
+    grid-row: 3 / 4;
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: 22.587% 3.217% 22.587% 3.217% 22.587% 3.218% 22.587%;
+    grid-template-rows: 3.680% 5.112% 39.672% 8.793% 8.793% 33.95%;
+}
+
+.h2_activité {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.vignette1_activité {
+    grid-column: 1;
+    grid-row: 3 / 7;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette1_activité img {
+    width: 302px;
+    height: 390px;
+    border-radius: 30px 30px 0 0;
+}
+
+.vignette2_activité {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette2_activité img {
+    width: 302px;
+    height: 181px;
+    border-radius: 30px 30px 0 0;
+}
+
+.vignette3_activité {
+    grid-column: 3 / 4;
+    grid-row: 6;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette3_activité img {
+    width: 302px;
+    height: 109px;
+    border-radius: 30px 30px 0 0;
+}
+
+.vignette4_activité {
+    grid-column: 5 / 6;
+    grid-row: 3 / 7;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette4_activité img {
+    width: 303px;
+    height: 388px;
+    border-radius: 30px 30px 0 0;
+}
+
+.vignette5_activité {
+    grid-column: 7;
+    grid-row: 3 / 4;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette5_activité img {
+    width: 302px;
+    height: 139px;
+    border-radius: 30px 30px 0 0;
+}
+
+.vignette6_activité {
+    grid-column: 7;
+    grid-row: 5 / 7;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.vignette6_activité img {
+    width: 302px;
+    height: 153px;
+    border-radius: 30px 30px 0 0;
+}
+/*--------------------------------------------- partie footer ---------------------------------------------------------------------*/
+footer {
+    background-color: #F2F2F2;
+}
+
+.parent_footer {
+    max-width: 1440px;
+    height: 218px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.À_propos {
+    width: 448px;
+    height: 115px;
+}
+
+.Nos_hébergements {
+    width: 448px;
+    height: 115px;
+}
+
+.Assistance {
+    width: 448px;
+    height: 115px;
+}
+}
