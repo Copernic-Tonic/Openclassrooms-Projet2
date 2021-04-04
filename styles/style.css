@@ -315,6 +315,26 @@ body  {
     font-weight: 2000;
 }
 
+.notation_p_vignette1 i {
+    color: #0065FC;
+}
+
+.notation_p_vignette2 i {
+    color: #0065FC;
+}
+
+.notation_p_vignette3 i {
+    color: #0065FC;
+}
+
+.notation_p_vignette2 i:nth-child(5) {
+    color: #F2F2F2;
+}
+
+.notation_p_vignette3 i:nth-child(5) {
+    color: #F2F2F2;
+}
+
 .flex_populairelogo {
     width: 343px;
     grid-column: 2;
