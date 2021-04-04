@@ -72,16 +72,48 @@ body  {
 #parent_nav {
     max-width: 1440px;
     height: 298px;
-    padding: 0 50px 0 50px;
     margin: auto;
+    padding :0 150px 0 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .parent_filtres {
+    height: auto;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+}
+
+.parent_filtres div {
+    padding: 0 20px 0 20px;
+}
+
+.parent_filtres i {
+    border-radius: 50%;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 18px;
+    position: relative;
+    right: 20px;
+    bottom: 1px;
+}
+
+.p2 i {
+    float: left;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    color: white;
+    background-color: #0065FC;
+}
+
+.Économique {
+    width: 194px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px 30px 30px 30px;
+    margin: 30px;
 }
 
 /*------------------------------------fin de la partie nav---debut des sections-------------------------------------*/
@@ -89,12 +121,13 @@ body  {
 #parent_section {
     max-width: 1440px;
     height: 1240px;
-    margin: auto;
+    margin: 0 auto 0 auto;
     padding: 0;
     display: grid;
     grid-template-columns: 3.472% 61.111% 2.777% 29.166% 3.747%;
     grid-template-rows: 626px 65px 489px 60px;
 }
+
 
 /*------------------------------------------------- section Hébergement ------------------------------------------------------*/
 
@@ -110,13 +143,73 @@ body  {
     grid-template-rows: 7.507% 2.555% 4.472% 31.789% 4.792% 31.789% 7.028% 2.396% 7.987%;
 }
 
+.parent_Hébergements h3 {
+    font-size: 0.95em;
+    font-weight: bold;
+    padding: 10px 0 0 15px;
+}
+
+.parent_Hébergements p {
+    font-size: 0.90em;
+    padding: 0 0 0 15px;
+}
 .parent_Hébergements img {
     width: 236px;
     height: 114px;
     border-radius: 30px 30px 0 0;
     padding: 5px 5px 0 5px;
 }
+/*--------------- étoiles heberegement -------------------*/
+.notation_h_vignette1 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
 
+.notation_h_vignette2 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
+
+.notation_h_vignette3 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
+
+.notation_h_vignette4 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
+
+.notation_h_vignette5 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
+
+.notation_h_vignette6 {
+    color: #0065FC;
+    padding: 0 0 0 15px;
+}
+
+.notation_h_vignette1 i:nth-child(5) {
+    color: #F2F2F2;
+}
+
+.notation_h_vignette3 i:nth-child(5) {
+    color: #F2F2F2;
+}
+
+.notation_h_vignette4 i:nth-child(5) {
+    color: #F2F2F2;
+}
+
+.notation_h_vignette4 i:nth-child(4) {
+    color: #F2F2F2;
+}
+
+.notation_h_vignette5 i:nth-child(5) {
+    color: #F2F2F2;
+}
+/*----------------------------------------------------------*/
 .parent_Hébergements h2 {
     font-weight: 1000;
     font-size: 1.25em;
@@ -128,11 +221,18 @@ body  {
 
 .hébergement_vignette1 {
     background-color: white;
-    width: 246px;
+    width: 1;
     height: 199px;
     border-radius: 30px;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.hébergement_vignette1 img {
+    width: 96%;
+    padding: 5px 15px 0 5px;
+    margin: auto;
 }
 
 .hébergement_vignette2 {
@@ -142,6 +242,7 @@ body  {
     border-radius: 30px;
     grid-column: 4 / 5;
     grid-row: 4 / 5;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .hébergement_vignette3 {
@@ -151,6 +252,7 @@ body  {
     border-radius: 30px;
     grid-column: 6 / 7;
     grid-row: 4 / 5;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .hébergement_vignette4 {
@@ -160,6 +262,7 @@ body  {
     border-radius: 30px;
     grid-column: 2 / 3;
     grid-row: 6 / 7;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .hébergement_vignette5 {
@@ -169,6 +272,7 @@ body  {
     border-radius: 30px;
     grid-column: 4 / 5;
     grid-row: 6 / 7;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .hébergement_vignette6 {
@@ -178,6 +282,7 @@ body  {
     border-radius: 30px;
     grid-column: 6 / 7;
     grid-row: 6 / 7;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .Afficher_plus {
@@ -227,6 +332,7 @@ body  {
     border-radius: 30px;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .populaire_vignette2 {
@@ -236,6 +342,7 @@ body  {
     border-radius: 30px;
     grid-column: 2 / 3;
     grid-row: 6 / 7;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .populaire_vignette3 {
@@ -245,6 +352,7 @@ body  {
     border-radius: 30px;
     grid-column: 2 / 3;
     grid-row: 8 / 9;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 /*------------------------------------------------------ section activités -----------------------------------------------------------*/
