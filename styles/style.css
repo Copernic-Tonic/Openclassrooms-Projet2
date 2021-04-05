@@ -315,6 +315,29 @@ body  {
     font-weight: 2000;
 }
 
+.parent_populaires h3 {
+    padding: 20px 0 0 153px;
+    font-size: 0.9em;
+}
+
+.parent_populaires p {
+    font-size: 0.9em;
+    padding: 0 0 0 153px;
+}
+/*-------------- notation ----------*/
+
+.notation_p_vignette1 {
+    padding: 40px 0 0 153px;
+}
+
+.notation_p_vignette2 {
+    padding: 40px 0 0 153px;
+}
+
+.notation_p_vignette3 {
+    padding: 40px 0 0 153px;
+}
+
 .notation_p_vignette1 i {
     color: #0065FC;
 }
@@ -334,6 +357,8 @@ body  {
 .notation_p_vignette3 i:nth-child(5) {
     color: #F2F2F2;
 }
+
+/*------------------*/
 
 .flex_populairelogo {
     width: 343px;
